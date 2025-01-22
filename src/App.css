@@ -1,0 +1,104 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf3e0; /* Light cream color as the background */
+  color: #4a4a4a; /* Neutral dark gray text */
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #6d4c41; /* Warm brown color for headings */
+}
+
+p {
+  color: #5f5f5f; /* Medium gray for paragraph text */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f4e3cf; /* Beige navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+  font-weight: 600;
+  color: #6d4c41 !important; /* Warm brown */
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #6d4c41 !important; /* Warm brown */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #9c786c !important; /* Slightly lighter brown for hover */
+  text-decoration: underline;
+}
+
+/* Main Content */
+.container {
+  text-align: center;
+}
+
+.display-3 {
+  font-size: 4rem; /* Increased size for 'Welcome to My Portfolio' */
+  color: #6d4c41; /* Warm brown */
+}
+
+.lead {
+  font-size: 1.5rem; /* Increased size for 'Hi, I am Anna' */
+  color: #7d6763; /* Subtle warm gray */
+}
+
+a.btn {
+  background-color: #d7bba8; /* Creamy button color */
+  color: #fff !important;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+  background-color: #bc9b8b; /* Slightly darker cream */
+}
+
+/* Footer */
+footer {
+  background-color: #6d4c41; /* Warm brown */
+  color: #fef8e7; /* Light cream text */
+}
+
+footer a {
+  color: #fef8e7 !important;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #d7bba8 !important; /* Creamy hover color */
+}
+
+/* Text color for 'Welcome' heading */
+.text-main {
+  color: #6d4c41 !important; /* Warm brown */
+}
+
+/* Custom background for main section */
+.bg-custom {
+  background-color: #faf3e0; /* Light cream background */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .display-3 {
+    font-size: 3rem; /* Adjusted size for smaller screens */
+  }
+
+  .lead {
+    font-size: 1.25rem; /* Adjusted size for smaller screens */
+  }
+}
